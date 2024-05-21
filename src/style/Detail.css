@@ -1,0 +1,27 @@
+.detail_page {
+  position: relative;
+}
+.detail_page .score,
+.detail_page .close {
+  position: absolute;
+  top: 5vw;
+}
+.detail_page .score {
+  left: 5vw;
+}
+.detail_page .close {
+  right: 5vw;
+}
+.detail_page .close .exit {
+  width: 10vw;
+}
+.re_confirm_amount .title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.re_confirm_amount .content {
+  word-break: break-all;
+}
